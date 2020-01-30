@@ -1,0 +1,37 @@
+.layoutContent{
+    min-height: 700px;
+    border:0.5px solid lightgray;
+    background-color: rgb(224, 235, 238);
+    padding-left:3%;
+    padding-right: 3%;
+  }
+
+.layoutRow{
+    background-color: rgb(94, 177, 204);
+    min-height: 100px;
+    padding:1%; 
+}
+
+
+.layoutCol{
+    background-color: rgb(182, 86, 86);
+    min-height: 90px;
+    border:0.5px solid lightblue;
+}
+.rowbtn{
+    width: 5px;
+    height: 5px;
+}
+
+.selected{
+    border: 3px solid yellow !important;
+}
+
+.layoutname{
+    color:black;
+    font-size: 14px;
+}
+
+i:hover{
+    cursor: pointer;
+}
